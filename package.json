@@ -2,12 +2,13 @@
   "name": "vue-global-map",
   "version": "1.0.0",
   "description": "Vue global map component",
-  "main": "dist/your-component-name.ssr.js",
-  "module": "dist/your-component-name.esm.js",
-  "unpkg": "dist/your-component-name.min.js",
-  "style": "dist/your-component-name.css",
+  "main": "dist/vue-global-map.ssr.js",
+  "module": "dist/vue-global-map.esm.js",
+  "unpkg": "dist/vue-global-map.min.js",
+  "style": "dist/vue-global-map.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "",
+    "build":"rollup -c"
   },
   "repository": {
     "type": "git",

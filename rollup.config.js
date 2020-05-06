@@ -1,9 +1,9 @@
-import vueRollup from 'rollup-plugin-vue'
+import vue from 'rollup-plugin-vue'
 import buble from 'rollup-plugin-buble'
 import commonjs from 'rollup-plugin-commonjs'
 
 export default {
-    input:"./src/index.js",
+    input:"./src/vue-global-map.vue",
     plugins:{
         preVue:[
             replace({
@@ -20,5 +20,5 @@ export default {
         postVue:[
             buble() //use buble to transpile ES2015
         ]
-    }
+    },
 }
